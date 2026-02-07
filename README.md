@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# Tauri + Vanilla TS
-
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-=======
 # PromptSticker 
 
 一个专为 AI 提示词（Prompt）创作设计的极简、透明、置顶“纸片”记事本。（A minimalist, transparent, top-mounted "paper" notepad designed specifically for creating AI prompts.）
@@ -29,5 +20,3 @@ This template should help get you started developing with Tauri in vanilla HTML,
 3. `npm run tauri dev`
 
 
-
->>>>>>> f46cf4af63c04bd4da800be60506a5f4b9796d37
