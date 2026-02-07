@@ -1,4 +1,4 @@
-# PromptSticker 
+# PromptSticker
 
 一个专为 AI 提示词（Prompt）创作设计的极简、透明、置顶“纸片”记事本。（A minimalist, transparent, top-mounted "paper" notepad designed specifically for creating AI prompts.）
 
@@ -18,5 +18,24 @@
 1. 安装 Rust 与 Node.js（Install Rust and Node.js）
 2. `npm install`
 3. `npm run tauri dev`
+
+
+### 预览 (Preview)
+
+#### 1. 沉浸式创作 (Writing Mode)
+极简的记事本界面，让你进入心流状态。
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e175eae9-4d1c-42d4-9742-46a8ded2cc7a" width="80%">
+</p>
+
+#### 2. 透明置顶交互 (Interactive Mode)
+半透明磨砂质感，配合 AI 输出实时优化 Prompt。
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9db1482-4a80-49f1-98f6-097106fb20bc" width="80%">
+</p>
+
+
+
+
 
 
