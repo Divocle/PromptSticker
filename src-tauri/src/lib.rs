@@ -29,7 +29,7 @@ pub fn run() {
             #[cfg(target_os = "windows")]
             disable_window_transitions(&window);
 
-            // 注册 F2 热键
+            // 注册热键
             let f2 = Shortcut::new(None, Code::F2);
 
             // 监听热键逻辑
