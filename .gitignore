@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+# Node.js
+node_modules/
+dist/
+
+# Rust
+target/
+src-tauri/target/
+
+# System
+.DS_Store
+*.log
+>>>>>>> f46cf4af63c04bd4da800be60506a5f4b9796d37
