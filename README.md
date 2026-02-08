@@ -24,7 +24,7 @@ It allows you to focus and concentrate while writing prompts, and provides AI as
   * `--py` / `--cpp`：查询常用类/函数用法（Code & API Lookup）
 * `鼠标拖拽`：通过顶部区域自由移动（Move freely via the top area）
 * `窗口大小调节`：可以自动调节窗口大小（Automatically resizes the window）
-*  `Ctrl + h`在原文与 AI 处理结果之间切换，不打断当前写作上下文（Switch between the original text and AI-processed results without interrupting the current writing context）
+*  `Ctrl + h` 一键切换原文 / AI 结果，边获取信息，边保持写作连贯性（Switch between the original text and AI-processed results without interrupting the current writing context）
 * `额外功能持续优化中`（`Continuously Optimizing Additional Features`）
 
 
