@@ -27,7 +27,7 @@ It allows you to focus and concentrate while writing prompts, and provides AI as
 * `额外功能持续优化中`（`Continuously Optimizing Additional Features`）
 
 
-### 开发与构建（Development and Bui
+### 开发与构建（Development and Build）
 1. 安装 Rust 与 Node.js（Install Rust and Node.js）
 2. `npm install`
 3. `npm run tauri dev`
