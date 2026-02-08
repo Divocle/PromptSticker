@@ -14,7 +14,7 @@
 * `窗口大小调节`：可以自动调节窗口大小（Automatically resizes the window）
 * `额外功能持续优化中`（`Continuously Optimizing Additional Features`）
 
-### 开发与构建（Development and Build）
+### 开发与构建（Development and Bui
 1. 安装 Rust 与 Node.js（Install Rust and Node.js）
 2. `npm install`
 3. `npm run tauri dev`
