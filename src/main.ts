@@ -3,14 +3,18 @@ import { invoke } from "@tauri-apps/api/core";
 window.addEventListener("DOMContentLoaded", () => {
   const textarea = document.querySelector("textarea") as HTMLTextAreaElement;
 
+  let lastState: string | null = null; // 用于存储替换前的文本快照
+
   textarea.addEventListener("keyup", async (e: KeyboardEvent) => {
     if (e.key === "Enter" && e.ctrlKey) {
       e.preventDefault();
 
-      const content = textarea.value.trim();
+      const content = textarea.value;
       const triggerRegex = /(.*?)\s*--(m|tr|py|cpp)$/;
       const match = content.match(triggerRegex);
+
       if (!match) return;
+      lastState = content; // 处理之前保存当前完整内容快照
 
       const term = match[1].trim();
       const mode = match[2];
@@ -49,6 +53,16 @@ window.addEventListener("DOMContentLoaded", () => {
         textarea.disabled = false;
         textarea.focus();
       }
+    }
+
+    // 快照撤销/切换
+    if (e.key == "h" && e.ctrlKey) {
+      e.preventDefault();
+      if (lastState != null) {
+        const currentState = textarea.value;
+        textarea.value = lastState;
+        lastState = currentState; // 更新本次快照为刚刚处理结果，实现类似切换效果
+      } 
     }
   });
 });
